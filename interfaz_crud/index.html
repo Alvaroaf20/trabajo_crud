@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/estilo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Login PokerSun</title>
+</head>
+<body class="bg-img">
+  <div class="container bg-dark vh-100">    
+    
+    
+     <!-- formulario de login-->
+     <div class="row d-flex justify-content-center vh-100 align-items-center">
+       <div class="col-xs-12 col-md-8 col-lg-6">
+        
+          <!-- aquí empieza formulario bootstrap-->
+          <form class="my-5 p-3 border border-light rounded border-5"
+                  action=""
+                  method="post">
+              <!-- cuando un formulario tiene un atributo action, indica
+                  a qué controlador se le envían los datos de entrada -->
+              <!-- hay 2 formas principales de enviar los datos de un formulario, dos métodos: get y post-->
+              <h1 class="p-3 text-center text-danger titulo"><i class="bi bi-suit-heart-fill tex-danger fs-1"></i> PokerSun <i class="bi bi-suit-spade-fill text-danger fs-1 text-light"></i></h1>
+              <div class="form-floating mb-3 p-2">
+                  <input type="text" class="form-control" id="identificador" name="identificador" aria-describedby="identificadorHelp"
+                  placeholder="Dame tu identificador" required>
+                  <label for="identificador" class="form-label">Nombre de usuario:</label>
+              </div>
+              <div class="form-floating mb-3 p-2"> 
+                  <input type="password" class="form-control" id="pass" name="pass" placeholder="password"
+              aria-describedby="passHelp" required>
+              <label for="pass" class="form-label">Contraseña</label>
+                 
+              </div>
+          <!-- <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>-->
+              <button type="submit" class="btn btn-dark border border-light rounded">Entrar</button>
+          </form>
+
+          <div class="p-5 text-light">
+            <p>Esta parte es para enlazar con las otras paginas</p>
+          <a class="btn btn-dark text-light border border-light" href="index.html" role="button">login</a>
+          <a class="btn btn-dark text-light border border-light" href="editar.html" role="button">editar</a>
+          <a class="btn btn-dark text-light border border-light" href="insercion.html" role="button">insercion</a>
+          <a class="btn btn-dark text-light border border-light" href="consulta.html" role="button">consulta</a>
+        </div>
+          <!-- aqui termina el formulario bootstrap -->
+       </div><!-- de las col-->
+
+    </div><!-- de la row-->
+  </div><!-- del container -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

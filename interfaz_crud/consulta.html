@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Datos de Usuarios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style/estilo.css">
+</head>
+<body class="bg-img2">
+    <div id="wrapper" class="container bg-dark p-5">
+      <h1 class="text-center p-2 text-danger titulo">Listado de Usuarios</h1>
+      <div class="table-responsive">
+        <table class="table table-dark table-striped table-hover align-middle border border-light">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre Usuario</th>
+                <th scope="col">Nombre y Apellido</th>
+                <th scope="col">Numero de tarjeta</th>
+                <th scope="col">Continente</th>
+                <th scope="col">Mayor edad</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Borrar</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>naitoon</td>
+                <td>Antonio Fernandez</td>
+                <td>1221457648389035</td>
+                <td>Europa</td>
+                
+                <td>si</td>
+                <td><i class="bi bi-pencil fs-4"></i></td>
+                <td><i class="bi bi-trash fs-4" onclick="confirm('¿Estas seguro de que quiere borrar este registro?')"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>laitana</td>
+                <td>Lucia Perez</td>
+                <td>1745398850835274</td>
+                <td>America</td>
+               
+                <td>si</td>
+                <td><i class="bi bi-pencil fs-4"></i></td>
+                <td><i class="bi bi-trash fs-4" onclick="confirm('¿Estas seguro de que quiere borrar este registro?')"></i></td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>PintusPrime</td>
+                <td>Alejandro Jimenez</td>
+                <td>7836501585682745</td>
+                <td>Asia</td>
+                
+                <td>si</td>
+                <td><i class="bi bi-pencil fs-4"></i></td>
+                <td><i class="bi bi-trash fs-4" onclick="confirm('¿Estas seguro de que quiere borrar este registro?')"></i></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <button type="button" class="btn btn-dark text-light border border-light" data-bs-toggle="modal" data-bs-target="#formularioinsertar" >Insertar usuario</button><br>
+        
+        <div class="p-5 text-light">
+          <p>Esta parte es para enlazar con las otras paginas</p>
+        <a class="btn btn-dark text-light border border-light" href="index.html" role="button">login</a>
+        <a class="btn btn-dark text-light border border-light" href="editar.html" role="button">editar</a>
+        <a class="btn btn-dark text-light border border-light" href="insercion.html" role="button">insercion</a>
+        <a class="btn btn-dark text-light border border-light" href="consulta.html" role="button">consulta</a>
+      </div>
+      </div>
+
+      
+      
+    </div>
+  </div>
+</div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

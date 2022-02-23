@@ -1,0 +1,18 @@
+@font-face {
+    font-family: titulo;
+    src: url(../fonts/stormfaze.ttf);
+}
+
+.titulo{font-family: titulo;}
+
+.bg-img{background-image: url("../images/fondo\ poker.jpg");
+    background-size: cover;}
+
+.bg-img2{background-image: url("../images/Ruleta-casino.jpg");
+    background-size: cover;}
+
+.bg-img3{background-image: url("../images/fondo\ 3.jpg");
+    background-size: cover;}
+
+.bg-img4{background-image: url("../images/interior-de-un-casino.jpg");
+    background-size: cover;}
